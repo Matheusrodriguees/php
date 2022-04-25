@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 20px;
+        }
+        .input-group{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+            <form action=conversor_calculo.php method="get">
+                <div class="input-group">
+                    <label> Digite 1 para: Celsius para Farenheit<br/>
+                        Digite 2 para: Farenheit para Celsius<br/></label>                    
+                    <input type="number" name="opt"><br/>
+                </div>
+                <br/>
+                <div class="input-group">
+                    <label>Temperatura</label>  
+                    <br/>                       
+                    <input type="number" name="number" />             
+                </div>
+                <div class="input-group">
+                    <br/>
+                    <input type="submit" name="submit" value="Calcular" />    
+                </div>                  
+            </form>
+    </section>
+</body>
+</html>
